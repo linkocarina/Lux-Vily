@@ -1,0 +1,24 @@
+.hero-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+#mobile-image{
+    border-radius: .5rem;
+}
+
+#desktop-image{
+    border-radius: .5rem;
+    display: none;
+}
+
+@media (width >= 80em){
+    #mobile-image{
+        display: none;
+    }
+
+    #desktop-image{
+    display: initial;
+}
+}
