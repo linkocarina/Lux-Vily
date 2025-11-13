@@ -1,0 +1,48 @@
+.container{
+    --max-width: 375px;
+    margin-inline: auto;
+    width: min(var(--max-width), 100% - var(--px-lg) * 2);
+    display: flex;
+    justify-content: space-between;
+    padding-top: .875rem;
+}
+
+.ocult-mobile{
+    display: none;
+}
+
+@media(width >= 80em){
+    .container{
+        --max-width: 80rem;
+}
+
+    .ocult-mobile{
+        display: flex;
+        gap: 2rem;
+    }
+
+    #menu-bar{
+        display: none;
+    }
+}
+
+
+nav{
+    display: flex;
+    gap: 2.25rem;
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: var(--ff);
+    font-size: var(-fs-sm);
+    font-weight: var(--fw-mid);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: .5rem;
+}
