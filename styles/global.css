@@ -29,6 +29,9 @@
     --ligh-height: 1.5;
 
     --px-lg: 2.5rem;
+
+    --px-mid: 1.25rem;
+    --py-mid: 1rem;
 }
 
 html, body{
@@ -55,3 +58,6 @@ h1, h2{
     }
 }
 
+.text-aling{
+    text-align: center;
+}

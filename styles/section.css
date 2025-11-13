@@ -1,0 +1,54 @@
+h2{
+    padding-block: var(--px-mid);
+    padding-inline: var(--py-mid);
+    text-align: center;
+}
+
+#services{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 12rem);
+    justify-content: center;
+    gap: .75rem;
+    padding: 1rem;
+}
+
+#services > li{
+    background-color: var(--greengray-low);
+    border: 1px solid var(--greengray-light);
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+button{
+    padding: .59375rem 1rem;
+    background-color: var(--greengray-low);
+    border-radius: .5rem;
+    color: var(--text-color);
+    font-size: .875rem;
+    font-family: var(--ff);
+    border: none;
+    padding-top: .75rem;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (width >= 80em){
+    h2{
+        text-align: unset;
+    }
+    .section-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#services{
+    list-style: none;
+    display: flex;
+}
+
+#services > li{
+    width: 11rem;
+}
+}
