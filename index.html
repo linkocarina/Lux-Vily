@@ -46,5 +46,23 @@
         </ul>
         <button>Ver todos os serviços</button>
     </section>
+    <form class="appointment ">
+        <legend>Agende seu Horário</legend>
+
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Seu nome">
+
+        <label for="service">Serviço</label>
+        <select name="service" id="service-cut" >
+            <option value="select">Selecione seu Corte</option>
+            <option value="Buzz Cut">Buzz Cut</option>
+            <option value="Americano">Americano</option>
+            <option value="Low Fade">Low Fade</option>
+            <option value="Tapper Fade">Tapper Fade</option>
+            <option value="Degrade">Degrade</option>
+        </select>
+        <label for="appointment-data">Data e Horário</label>
+        <input type="datetime-local" id="data" name="appointment-data">
+    </form>
 </body>
 </html>

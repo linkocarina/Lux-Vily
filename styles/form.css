@@ -1,0 +1,46 @@
+.appointment{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--ff);
+    gap: .75rem;
+    align-items:center ;
+}
+
+legend{
+    padding-top: 5rem;
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-bold);
+    text-align: center;
+}
+
+label{
+
+}
+
+input{
+    margin: 0 auto;
+    background-color: var(--greengray-low);
+    border: 1px solid var(--greengray-light);
+    border-radius: .5rem;
+    padding: 1rem;
+    width: 18.5rem;
+    font-family: var(--ff);
+    font-size: var(--fs-base);
+    color: var(--greengray-ultralight);
+}
+
+#data{
+    color: var(--greengray-ultralight);
+}
+
+select{
+    margin: 0 auto;
+    background-color: var(--greengray-low);
+    border: 1px solid var(--greengray-light);
+    border-radius: .5rem;
+    padding: 1rem;
+    width: 18.5rem;
+    color: var(--text-color);
+    font-family: var(--ff);
+    font-size: var(--fs-base);
+}
