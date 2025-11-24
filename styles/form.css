@@ -1,9 +1,9 @@
 .appointment{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    justify-content: space-around;
     font-family: var(--ff);
     gap: .75rem;
-    align-items:center ;
+    
 }
 
 legend{
@@ -43,4 +43,30 @@ select{
     color: var(--text-color);
     font-family: var(--ff);
     font-size: var(--fs-base);
+}
+
+.btn-confirm{
+    margin-top: 1rem;
+    padding: .75rem 1rem;
+    background-color: var(--happy-yellow);
+    border: none;
+    border-radius: .5rem;
+    font-size: var(--fs-base);
+    font-weight: var(--fw-bold);
+    font-family: var(--ff);
+    color: var(--bg-color);
+    cursor: pointer;
+}
+
+@media(width >= 80rem){
+    .appointment{
+        display: grid;
+        justify-content: space-around;
+        gap: 1.5rem;
+    }
+
+    input, select{
+        width: 28rem;
+        padding: 1rem;
+    }   
 }
