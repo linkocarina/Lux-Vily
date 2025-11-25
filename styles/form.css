@@ -1,4 +1,4 @@
-.appointment{
+#appointment{
     display: grid;
     justify-content: space-around;
     font-family: var(--ff);
@@ -56,7 +56,7 @@ select{
 }
 
 @media(width >= 80rem){
-    .appointment{
+    #appointment{
         display: grid;
         justify-content: space-around;
         gap: 1.5rem;

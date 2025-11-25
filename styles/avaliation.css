@@ -2,12 +2,12 @@
     border-radius: 50%;
 }
 
-.avaliation{
+#avaliation{
     display: grid;
     gap: 3rem;
     justify-content: center;
     padding-top: 2rem;
-
+    padding-inline: 2rem;
     h2{
         text-align: center;
     }

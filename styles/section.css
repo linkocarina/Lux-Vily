@@ -23,6 +23,11 @@ h2{
     align-items: center;
 }
 
+#services > li:hover{
+    transform: translateY(-8px);
+    transition: .3s;
+}
+
 button{
     padding: 1rem;
     background-color: var(--greengray-low);
