@@ -24,16 +24,16 @@ h2{
 }
 
 button{
-    padding: .59375rem 1rem;
+    padding: 1rem;
     background-color: var(--greengray-low);
     border-radius: .5rem;
     color: var(--text-color);
     font-size: .875rem;
     font-family: var(--ff);
     border: none;
-    padding-top: .75rem;
     display: block;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 @media (width >= 80em){
