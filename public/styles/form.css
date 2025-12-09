@@ -1,0 +1,69 @@
+#appointment{
+    display: grid;
+    justify-content: space-around;
+    font-family: var(--ff);
+    gap: .75rem;
+    
+}
+
+legend{
+    padding-top: 5rem;
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-bold);
+    text-align: center;
+}
+
+
+input{
+    margin: 0 auto;
+    background-color: var(--greengray-low);
+    border: 1px solid var(--greengray-light);
+    border-radius: .5rem;
+    padding: 1rem;
+    width: 18.5rem;
+    font-family: var(--ff);
+    font-size: var(--fs-base);
+    color: var(--greengray-ultralight);
+}
+
+#data{
+    color: var(--greengray-ultralight);
+}
+
+select{
+    margin: 0 auto;
+    background-color: var(--greengray-low);
+    border: 1px solid var(--greengray-light);
+    border-radius: .5rem;
+    padding: 1rem;
+    width: 18.5rem;
+    color: var(--text-color);
+    font-family: var(--ff);
+    font-size: var(--fs-base);
+}
+
+.btn-confirm{
+    margin-top: 1rem;
+    padding: .75rem 1rem;
+    background-color: var(--happy-yellow);
+    border: none;
+    border-radius: .5rem;
+    font-size: var(--fs-base);
+    font-weight: var(--fw-bold);
+    font-family: var(--ff);
+    color: var(--bg-color);
+    cursor: pointer;
+}
+
+@media(width >= 80rem){
+    #appointment{
+        display: grid;
+        justify-content: space-around;
+        gap: 1.5rem;
+    }
+
+    input, select{
+        width: 28rem;
+        padding: 1rem;
+    }   
+}
